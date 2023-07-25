@@ -1,0 +1,118 @@
+/* Global styles */
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    padding: .8rem;
+  }
+  .navbar-nav li {
+    padding-right: 20px; /* Reduce the padding for mobile devices */
+    color: red;
+  }
+  .navbar-nav a {
+    color: #6648b1;
+  }
+  
+  /* Carousel styles */
+  .carousel-inner img {
+    height: auto; /* Allow images to scale proportionally */
+    width: 100%;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+     /* Center the caption horizontally */
+    transform: translateY(-50%);
+  }
+  .carousel-caption h1 {
+    font-size: 300%; /* Reduce the font size for mobile devices */
+    text-shadow: 1px 1px 10px blue;
+  }
+  
+  /* Button styles */
+  .btn-primary {
+    background-color: #6648b1;
+    border: 2px solid #563d7c;
+    width: 100%; /* Make buttons full width on mobile devices */
+  }
+  .btn-primary:hover {
+    background-color: #563d7c;
+    border: 2px solid #563d7c;
+  }
+  
+  /* Jumbotron styles */
+  .jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+  }
+  
+  /* Padding utility class */
+  .padding {
+    padding-bottom: 30px; /* Adjust padding for mobile devices */
+  }
+  
+  /* Welcome section styles */
+  .welcome {
+    width: 100%; /* Make the content full width on mobile devices */
+    margin: 0 auto;
+    padding-top: 1rem; /* Adjust top padding for mobile devices */
+    padding-left: 10px; /* Adjust left padding for mobile devices */
+  }
+  .welcome hr {
+    border-top: 2px solid darkblue;
+    width: 50%; /* Adjust width for mobile devices */
+  }
+  
+  /* Icon styles */
+  .fa-bold, .fa-code, .fa-css3 {
+    font-size: 32px; /* Adjust font size for mobile devices */
+    margin: 0.5rem;
+  }
+  
+  /* Social icons */
+  .social a {
+    font-size: 2rem; /* Adjust font size for mobile devices */
+    padding: 1rem;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 1rem; /* Adjust top padding for mobile devices */
+  }
+  hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 50%; /* Adjust width for mobile devices */
+  }
+  
+  /* Mobile styles (up to 768px) */
+  @media (max-width: 768px) {
+    .navbar-nav li {
+      padding-right: 10px; /* Further reduce the padding for smaller mobile devices */
+    }
+    .carousel-caption h1 {
+      font-size: 200%; /* Further reduce the font size for smaller mobile devices */
+    }
+    .padding {
+      padding-bottom: 20px; /* Further adjust padding for smaller mobile devices */
+    }
+    .welcome hr {
+      width: 30%; /* Further adjust width for smaller mobile devices */
+    }
+    .fa-bold, .fa-code, .fa-css3 {
+      font-size: 24px; /* Further adjust font size for smaller mobile devices */
+    }
+    .social a {
+      font-size: 1.5rem; /* Further adjust font size for smaller mobile devices */
+    }
+    footer hr.light {
+      width: 30%; /* Further adjust width for smaller mobile devices */
+    }
+  }
+  
